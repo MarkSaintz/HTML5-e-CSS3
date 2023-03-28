@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none; /* não mostra o texto oculto*/
+        }
+        div:hover > p { /* Configuração para mostrar textos oculto em um elemento*/
+            display: block;
+            color: rgb(27, 133, 226);
+            background-color: aqua;
+        }
+        div:hover { 
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mousesobre o texto abaixo</p>
+    <div>
+        Passe o mouse
+        <p>TEXTO OCULTO</p>
+    </div>
+</body>
+</html>
